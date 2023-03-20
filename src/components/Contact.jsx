@@ -65,6 +65,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -130,6 +131,8 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+    <div className="absolute left-0 bottom-3 flex justify-center items-center w-full"><p>Oluwademilade Ala</p></div>
+    </>
   );
 };
 
